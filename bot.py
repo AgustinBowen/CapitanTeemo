@@ -1,7 +1,6 @@
 import discord
 import dotenv
 import json
-from discord import Embed
 import asyncio
 from dateutil import parser
 
@@ -17,7 +16,7 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
-    print(f'We have logged in as {client.user}')
+    print(f'Estas loguedo como {client.user}')
     client.loop.create_task(follow_log('/var/log/suricata/eve.json', send_alert))
         
 async def follow_log(file_path, callback):
