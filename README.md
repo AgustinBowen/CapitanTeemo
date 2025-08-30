@@ -1,4 +1,4 @@
-[superteemo2.webp](https://postimg.cc/jC18zStz)br
+[![superteemo2.webp](https://i.postimg.cc/5N4ZWXrk/superteemo2.webp)](https://postimg.cc/jC18zStz)
 
 # Capitan Teemo
 ## Suricata → Discord Alert Bot
