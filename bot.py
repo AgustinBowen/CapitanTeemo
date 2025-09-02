@@ -52,8 +52,13 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_ready():
     print_animado("CapitanTimo")
-    print(f'Estas loguedo como {client.user}')
+    
+    canal = client.get_channel(DISCORD_CHANNEL_ID)
+
+    print(f'Capitan Teemo está patrullando el canal #{canal.name}')
+    
     client.loop.create_task(follow_log('/var/log/suricata/eve.json', send_alert))
+
         
 async def follow_log(file_path, callback):
     with open(file_path, 'r') as f:

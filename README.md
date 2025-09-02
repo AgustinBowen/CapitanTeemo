@@ -81,7 +81,7 @@ python bot.py
 
 Si todo está bien, deberías ver:
 ```
-We have logged in as CapitanTimoBot#XXXX
+Capitan Teemo está patrullando el canal #canalServidor
 ```
 
 Cuando Suricata detecte tráfico sospechoso (según tus reglas), aparecerá una alerta en tu canal de Discord con detalles como:
